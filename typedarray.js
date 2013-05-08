@@ -31,6 +31,8 @@ exports.toString = function (buffer) {
   return decodeURIComponent(escape(string));
 };
 
+exports.fromArrayToString = exports.toString;
+
 // Concatenate an array of native buffers with optional total length
 exports.concat = function (buffers, length) {
   if (length === undefined) {

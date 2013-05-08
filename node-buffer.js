@@ -19,6 +19,10 @@ exports.toString = function (buffer) {
   return buffer.toString();
 };
 
+exports.fromArrayToString = function (array) {
+  return (new Buffer(array)).toString();
+};
+
 // Concatenate an array of native buffers with optional total length
 exports.concat = function (buffers, length) {
   return Buffer.concat(buffers, length);
