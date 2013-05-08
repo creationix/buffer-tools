@@ -27,3 +27,5 @@ exports.fromArrayToString = function (array) {
 exports.concat = function (buffers, length) {
   return Buffer.concat(buffers, length);
 };
+
+exports.isBuffer = Buffer.isBuffer;

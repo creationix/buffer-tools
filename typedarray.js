@@ -52,3 +52,6 @@ exports.concat = function (buffers, length) {
   return buffer;
 };
 
+exports.isBuffer = function (buffer) {
+  return buffer instanceof Uint8Array;
+};
