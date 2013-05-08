@@ -1,0 +1,8 @@
+{
+  "name": "buffer-tools",
+  "version": "0.0.0",
+  "author": "Tim Caswell <tim@creationix.com>",
+  "main": "node-buffer.js",
+  "browser-main": "typedarray.js",
+  "license": "MIT"
+}
